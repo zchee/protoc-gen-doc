@@ -6,7 +6,8 @@ import (
 	"strings"
 
 	"github.com/envoyproxy/protoc-gen-validate/validate"
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
+
+	"github.com/zchee/protoc-gen-doc/extensions"
 )
 
 // ValidateRule represents a single validator rule from the (validate.rules) method option extension.

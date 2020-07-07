@@ -3,8 +3,9 @@ package extensions
 import (
 	"net/http"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
 	"google.golang.org/genproto/googleapis/api/annotations"
+
+	"github.com/zchee/protoc-gen-doc/extensions"
 )
 
 // HTTPRule represents a single HTTP rule from the (google.api.http) method option extension.
